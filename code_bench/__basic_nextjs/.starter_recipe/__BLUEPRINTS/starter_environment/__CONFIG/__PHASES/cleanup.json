@@ -1,0 +1,12 @@
+{
+  "__DEPENDS_ON": [
+	"exec"
+  ],
+  "ops_pipeline": [
+	{
+	  "remove": {
+		"path_filter": "[*]|[.__*]"
+	  }
+	}
+  ]
+}

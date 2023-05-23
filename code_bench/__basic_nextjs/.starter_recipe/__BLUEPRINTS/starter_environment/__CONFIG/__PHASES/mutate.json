@@ -1,0 +1,40 @@
+{
+  "__CODE_BLOCK": "base_code",
+  "__DEPENDS_ON": [
+	"setup"
+  ],
+  "ops_pipeline": [
+	{
+	  "transform": {
+	  }
+	},
+	{
+	  "recast": {
+		"target": [
+		  "-"
+		]
+	  }
+	},
+	{
+	  "recast_components": {
+		"target": [
+		  "recast_components_2a"
+		]
+	  }
+	},
+	{
+	  "pick": {
+		"target": [
+		  "-"
+		]
+	  }
+	},
+	{
+	  "pick_components": {
+		"target": [
+		  "recast_components_2b"
+		]
+	  }
+	}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "phase": "init",
+  "commands": [
+	{
+	  "rel_paths": [
+		"contact"
+	  ],
+	  "token_id": "base.id_fixed_pages",
+	  "scope": "contact"
+	},
+	{
+	  "rel_paths": [
+		"posts"
+	  ],
+	  "token_id": "base.id_fixed_pages",
+	  "scope": "posts"
+	},
+	{
+	  "rel_paths": [
+		"about"
+	  ],
+	  "token_id": "base.id_fixed_pages",
+	  "scope": "about"
+	}
+  ]
+}
+
